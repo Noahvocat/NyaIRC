@@ -17,11 +17,11 @@ def parse_requirements(filename):
 
 
 setup(
-    name="charla",
-    description="Charla IRC Server / Daemon",
+    name="NyaIRC",
+    description="NyaIRC SFW IRC chatting server",
     long_description=open("README.rst", "r").read(),
     author="James Mills",
-    author_email="James Mills, prologic at shortcircuit dot net dot au",
+    author_email="contact.noahvocat@gmail.com",
     url="http://bitbucket.org/prologic/charla/",
     download_url="http://bitbucket.org/prologic/charla/downloads/",
     classifiers=[
@@ -36,7 +36,7 @@ setup(
         "Topic :: Communications :: Chat :: Internet Relay Chat",
     ],
     license="MIT",
-    keywords="charla irc server daemon ircd",
+    keywords="irc server",
     platforms="POSIX",
     packages=find_packages("."),
     include_package_data=True,
