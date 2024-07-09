@@ -11,4 +11,4 @@ class Server(object):
     host = "localhost"
     port = 6667
 
-    network = "Test"
+    network = "NyaIRC"
