@@ -8,8 +8,7 @@
 
 import sys
 from types import ModuleType
-from os.path import abspath, dirname
-from subprocess import Popen, STDOUT
+import subprocess
 
 
 def importable(module):
